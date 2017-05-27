@@ -1,3 +1,3 @@
 # mikemchugh.github.io
 
-My blog on coding
+My [blog](https://mikemchugh.github.io/) on coding
