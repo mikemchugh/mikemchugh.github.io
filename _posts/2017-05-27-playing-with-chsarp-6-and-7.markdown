@@ -38,12 +38,6 @@ public class FooChecker
     IsFoo = newFoo;
   }
 }
-
-void Main()
-{
-  var fooIsOn = new FooChecker(true);
-  var fooIsOff = new FooChecker(false);
-}
 ```
 
 To achieve actual immutability prior to C# 6 we would have to be a bit more verbose and include a `readonly` backing field.
@@ -63,12 +57,6 @@ public class FooChecker
   {
     IsFoo = newFoo; // this will not compile
   }
-}
-
-void Main()
-{
-  var fooIsOn = new FooChecker(true);
-  var fooIsOff = new FooChecker(false);
 }
 ```
 
@@ -90,11 +78,5 @@ public class FooChecker
   {
     IsFoo = newFoo; // this will not compile
   }
-}
-
-void Main()
-{
-  var fooIsOn = new FooChecker(true);
-  var fooIsOff = new FooChecker(false);
 }
 ```
