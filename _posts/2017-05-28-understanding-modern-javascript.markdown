@@ -9,7 +9,7 @@ categories: JavaScript ES2015
 
 My JavaScript is a little rusty so I decided to invest some time in learning some of the newer features added in the last few years.
 
-It's a little confusing when people reference different version names but from what know ES2015 is what was formally known as ES6 and ES2016 was formally known as ES7.
+It's a little confusing when people reference different version names but from what I know ES2015 was formally known as ES6 and ES2016 was formally known as ES7.
 
 We'll start with `let` and `const`.
 
