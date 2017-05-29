@@ -17,7 +17,7 @@ We'll start with `let` and `const`.
 
 `let` is the way of declaring a variable with block scope, `var` declares a variable with function scope. I feel this is a massive improvement for people new to JavaScript; when I started the use of `var` was quite confusing.
 
-In the below example, you may guess that the output the values output for both variables would be 5 but running the example we see that blockScope does indeed have the value of 5 but functionScope has the value of 0. This is because of `hoisting` which basically means any variables declared with `var` will move to the top of the function, you can think of it as the `functionScope` variable inside the `if` replacing the one declared outside.
+In the below example, you may guess that the output the values output for both variables would be 5 but running the example we see that blockScope does indeed have the value of 5 but functionScope has the value of 0. This is because of *hoisting* which basically means any variables declared with `var` will move to the top of the function, you can think of it as the `functionScope` variable inside the `if` replacing the one declared outside.
 
 ```javascript
 function bindingExample() {
